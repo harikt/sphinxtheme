@@ -303,21 +303,21 @@
         <div class="col-sm-12 col-md-9 col-md-push-3">
 
             <div class="row">
-				<nav>
-					<ul class="pager">
-						<li class="previous">
-							{%- if prev %}
-								<a href="{{ prev.link|e }}"><span aria-hidden="true">&larr;</span>{{ prev.title }}</a>
-							{%- endif %}
-						</li>
-						<li class="next">
-							{%- if next %}
-								<a href="{{ next.link|e }}">{{ next.title }}<span aria-hidden="true">&rarr;</span></a>
-							{%- endif %}
-						</li>
-					</ul>
-				</nav>				
-			</div>
+                <nav>
+                    <ul class="pager">
+                        <li class="previous">
+                            {%- if prev %}
+                                <a href="{{ prev.link|e }}"><span aria-hidden="true">&larr;</span>{{ prev.title }}</a>
+                            {%- endif %}
+                        </li>
+                        <li class="next">
+                            {%- if next %}
+                                <a href="{{ next.link|e }}">{{ next.title }}<span aria-hidden="true">&rarr;</span></a>
+                            {%- endif %}
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
             {%- if hide_page_contents and pagename not in hide_page_contents -%}
             <div class="page-contents col-sm-5">
@@ -331,21 +331,21 @@
             </div>
             
             <div class="row">
-				<nav>
-					<ul class="pager">
-						<li class="previous">
-							{%- if prev %}
-								<a href="{{ prev.link|e }}"><span aria-hidden="true">&larr;</span>{{ prev.title }}</a>
-							{%- endif %}
-						</li>
-						<li class="next">
-							{%- if next %}
-								<a href="{{ next.link|e }}">{{ next.title }}<span aria-hidden="true">&rarr;</span></a>
-							{%- endif %}
-						</li>
-					</ul>
-				</nav>				
-			</div>
+                <nav>
+                    <ul class="pager">
+                        <li class="previous">
+                            {%- if prev %}
+                                <a href="{{ prev.link|e }}"><span aria-hidden="true">&larr;</span>{{ prev.title }}</a>
+                            {%- endif %}
+                        </li>
+                        <li class="next">
+                            {%- if next %}
+                                <a href="{{ next.link|e }}">{{ next.title }}<span aria-hidden="true">&rarr;</span></a>
+                            {%- endif %}
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
         </div>
 
